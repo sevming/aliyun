@@ -22,11 +22,25 @@ $aliyun = new Aliyun([
     'access_key_secret' => '',
     'region_id' => '',
     'uid' => '',
+    'timezone' => null,
     'mts' => [
         'host' => '',
         'bucket' => '',
         'location' => '',
         'pipeline_id' => null,
+    ],
+    'oss' => [
+        'host' => '',
+        'endpoint' => '',
+        'is_cname' => false,
+        'security_token' => null,
+        'request_proxy' => null,
+        'bucket' => '',
+        'policy' => [
+            'effective_time' => 60,
+            'dir' => 'test/',
+            'size' => 2,
+        ]
     ],
 ]);
 ```

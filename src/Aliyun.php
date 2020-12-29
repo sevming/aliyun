@@ -9,6 +9,7 @@ use Sevming\Foundation\Foundation;
  *
  * @property \Sevming\Aliyun\Providers\Green\Green $green
  * @property \Sevming\Aliyun\Providers\Mts\Mts     $mts
+ * @property \Sevming\Aliyun\Providers\Oss\Oss     $oss
  */
 class Aliyun extends Foundation
 {
@@ -17,6 +18,7 @@ class Aliyun extends Foundation
      */
     protected $providers = [
         Providers\Green\ServiceProvider::class,
-        Providers\Mts\ServiceProvider::class
+        Providers\Mts\ServiceProvider::class,
+        Providers\Oss\ServiceProvider::class
     ];
 }
