@@ -22,6 +22,12 @@ $aliyun = new Aliyun([
     'access_key_secret' => '',
     'region_id' => '',
     'uid' => '',
+    'mts' => [
+        'host' => '',
+        'bucket' => '',
+        'location' => '',
+        'pipeline_id' => null,
+    ],
 ]);
 ```
 
