@@ -1,0 +1,21 @@
+{
+    "name": "sevming/aliyun",
+    "description": "Package description here.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sevming",
+            "email": "sevming@foxmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "sevming/foundation": "^1.0",
+        "alibabacloud/green": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sevming\\Aliyun\\": "src"
+        }
+    }
+}
