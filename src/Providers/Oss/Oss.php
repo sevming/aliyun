@@ -62,7 +62,7 @@ class Oss extends BaseClient
             $options[] = implode(',', $temp);
         }
 
-        return empty($actions) ? '' : ($prefix . implode($options, '/'));
+        return empty($actions) ? '' : ($prefix . implode('/', $options));
     }
 
     /**
